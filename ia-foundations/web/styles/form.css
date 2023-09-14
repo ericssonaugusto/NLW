@@ -1,0 +1,42 @@
+#form{
+    margin-top: 4rem;
+    display: flex;
+    gap: .8rem;
+}
+#form > input{
+    height: 3rem;
+    width: 32rem;
+    color: #FFF;
+    background: #202024;
+    border-radius: .5rem;
+    border: 0;
+    padding: 0 .8rem;
+    font-size: 1rem;
+}
+#form > input:focus{
+    outline: 2px solid #8257e5;
+}
+#form > input:valid{
+    background-color: #202024;
+}
+#form > button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: .5rem;
+    background-color: #8257e5;
+    border: 0;
+    cursor: pointer;
+    transition: background-color .2s;
+
+}
+#form > button i{
+    font-size: 1.5rem;
+    color: #FFF;
+}
+#form > button:hover{
+    background-color: #6247e5;
+}
+#app .placeholder{
+    color: #7c7c8a;
+    user-select: none;
+}
